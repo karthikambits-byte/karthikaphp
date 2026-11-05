@@ -13,7 +13,7 @@ echo "3. Total Characters: " . $length . "<br>";
 $position = strpos($upperText, "PHP");
 echo "4. Position of 'PHP': " . $position . "<br>";
 
-// Starts at position 10 and takes 11 characters ("PROGRAMMING")
+
 $extractedWord = substr($upperText, 10, 11);
 echo "5. Extracted Word: " . $extractedWord . "<br>";
 ?>
